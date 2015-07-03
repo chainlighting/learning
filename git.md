@@ -36,6 +36,7 @@ Git Usage
 ## Create a new git repository
 ####0. github
 > when create a new repository,you first step is to create it in github,so you can binging local repository with github repository at later step.
+> 
 > *login github.com*
 > *use create repository to create a github repository*
 ####1. prepare
@@ -139,7 +140,7 @@ Git Usage
 > use ssh remote access,we can push to remote without passwd.
 > ####2.1 create the sshkey
 > > ```bash
-> > ssh-keygen  -t rsa –C “youremail@example.com”
+> > ssh-keygen -t rsa -C "youremail@example.com"
 > > ```
 > > then you will get your git's rsa pubkey. will be at this position:
 > > [*~/.ssh/id_rsa.pub*]
